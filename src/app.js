@@ -1,6 +1,6 @@
 
 import express,{json} from "express";
-import { mainRouter } from "./routers/mainRoute";
+import { mainRouter } from "./routers/mainRoute.js";
 const appExpress = express();
 
 appExpress.use(json());
